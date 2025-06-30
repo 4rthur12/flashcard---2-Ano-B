@@ -1,6 +1,6 @@
 body{
     background-color: cornflowerblue;
-    font-family: Bai Jamjuree;
+    font-family:Bai Jamjuree;
 }
 
 #container{
@@ -8,7 +8,27 @@ body{
 }
 
 .cartao{
-    
+    margin: 1rem 1rem;
+    background-color: darkblue;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 0.6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+
+    height: 100%;
+}
+
+.cartao__conteudo h3 {
+    background-color: rgb(137, 34, 137);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
 footer{
